@@ -1,3 +1,16 @@
+编译失败安装apt install libev-dev
+#或apt install libc-ares-dev libc-ares2 libev-dev libev4 libcurl4-nss-dev libcurl4-gnutls-dev libcurl3-gnutls libcurl3-nss
+
+git clone https://github.com/aarond10/https_dns_proxy.git
+cd https_dns_proxy
+mkdir a
+cd a
+cmake ..
+make
+./https_dns_proxy
+
+
+
 # https-dns-proxy
 
 https\_dns\_proxy is a light-weight DNS&lt;--&gt;HTTPS, non-caching translation
